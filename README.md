@@ -14,9 +14,9 @@ This package allows you to execute Artisan commands in a simple way using the br
 ## Installation
 
 Add this repository to your composer's `repositories` list like so:
-```json
+```js
     "repositories": [
-        // ....
+        // another repo, if exists
         {
             "type": "vcs",
             "url": "https://github.com/ariqfadlan/laravel-web-artisan"

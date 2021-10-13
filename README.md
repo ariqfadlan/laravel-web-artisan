@@ -13,7 +13,18 @@ This package allows you to execute Artisan commands in a simple way using the br
 
 ## Installation
 
-Require this package with Composer on your Laravel project.
+Add this repository to your composer's `repositories` list like so:
+```json
+    "repositories": [
+        // ....
+        {
+            "type": "vcs",
+            "url": "https://github.com/ariqfadlan/laravel-web-artisan"
+        }
+    ],
+
+```
+Then, require this package with Composer on your Laravel project.
 
 ``` bash
 $ composer require ariqfadlan/laravel-web-artisan
